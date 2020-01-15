@@ -6,7 +6,8 @@ import (
 	"html/template"
 	"net/http"
 	"path/filepath"
-
+	
+	_ "github.com/qor/admin/views"
 	"github.com/qor/qor"
 	"github.com/qor/qor/utils"
 	"github.com/qor/roles"
